@@ -1,0 +1,31 @@
+@import 'vars';
+
+.favorites {
+    display: flex;
+    justify-content: center;
+    // border: solid green;
+}
+
+.favorites_none {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+
+  img {
+    width: 50%;
+  }
+
+  h3 {
+    font-weight: normal;
+  }
+}
+
+.favorites_photos {
+    display: flex;
+    flex-wrap: wrap;
+    width: 510px;
+    // border: solid rgb(255, 0, 0);
+    gap: 30px;
+}
+

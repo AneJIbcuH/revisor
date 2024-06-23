@@ -1,0 +1,37 @@
+.catalog-user {
+    font-size: 19px;
+    margin: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.catalog-user-name {
+    width: 50%;
+}
+
+.catalog-user_icon {
+    margin-right: 10px;
+    color: $color2;
+    background: white;
+
+    :hover {
+        cursor: pointer;
+    }
+}
+
+.catalog-user-album {
+    margin: 10px 0 0 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.catalog-user-album-title {
+    width: 90%;
+}
+
+.catalog-user-album_photos {
+    margin: 10px 0 0 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
